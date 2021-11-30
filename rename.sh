@@ -3,3 +3,4 @@ for FILE in `ls *.sty *.tex .gitignore .github/**/*.y*ml`; do
 done
 
 mv sd-lab-template.tex $1.tex
+mv sd-lab-template.bib $1.bib
